@@ -931,3 +931,77 @@ footer-right textarea {
     margin-bottom: 30px;
     padding: 15px;
 }
+
+/* About/kontakt sida */
+
+.about-header {
+    background-image: url(img/AbstractP.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 400px;
+    padding: 1.3rem 15%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    gap: 1rem;
+}
+
+.header-top {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.about-header .logo {
+    height: 45px;
+}
+
+.about-header .navbar {
+    display: flex;
+    gap: 30px;
+}
+
+.about-header .navbar a {
+    font-size: 1.2rem;
+    color: white;
+    font-family: "Anton", sans-serif;
+    font-weight: 400;
+    transition: color 0.3s ease;
+}
+
+.about-header .navbar a:hover {
+    color: #cb720d;
+}
+
+
+
+
+
+.header-text {
+    margin-top: 60px;
+}
+
+.header-text h4,
+.header-text h2,
+.header-text p {
+    margin: 0;
+}
+
+.header-text h4 {
+    color: #fffefc;
+    margin-bottom: 15px;
+    font-size: 22px;
+}
+
+.header-text h2 {
+    color: #fffefc;
+    margin-bottom: 20px;
+    font-size: 42px;
+}
+
+.header-text p {
+    color: #e1ebec;
+}
