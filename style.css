@@ -14,6 +14,10 @@ body {
     background-color: #f0f1ff;
 }
 
+/* Denna del innehåller min kod för header och navbar
+
+*/
+
 .header {
     left: 0;
     top: 0;
@@ -73,6 +77,9 @@ hr.line1 {
     margin: 20px auto;
 }
 
+/* Här börjar min kod för animationen och nedre divar nedanför
+
+*/
 
 .anibox {
     color: #999;
@@ -235,6 +242,10 @@ hr.line1 {
     flex-wrap: wrap;
 }
 
+/* Mina glas aktiga divar
+
+*/
+
 .glass-container {
     height: 32.5rem;
     width: 53.125rem;
@@ -390,6 +401,10 @@ hr.line1 {
     font-size: 18px;
 }
 
+/* Divar med referenser till arbeten(inte riktiga referenser :( ) 
+
+*/
+
 
 
 .div1,
@@ -527,6 +542,10 @@ hr.line1 {
     font-size: 22px;
 }
 
+/* Footer delen 
+
+*/
+
 .footer {
     background-color: rgb(13, 24, 28);
     padding: 40px;
@@ -640,7 +659,10 @@ footer-right textarea {
     background-color: #cb720d;
 }
 
-/*/  Tjänstsida css /*/
+/*/  Tjänstsida css
+
+ All kod nedanför är för tjanster.html och de inehåll
+/*/
 
 .work-container {
     display: flex;
@@ -728,6 +750,10 @@ footer-right textarea {
     line-height: 1.5;
 }
 
+/* glas divar med animation
+
+*/
+
 .workbox {
     background-color: #fbfaf8;
     height: 100vh;
@@ -770,6 +796,8 @@ footer-right textarea {
     width: 65%;
     line-height: 1.5;
 }
+
+/*  Kod för min Woocommerce del */
 
 .wooc-container {
     background-color: #0e1116;
@@ -970,10 +998,6 @@ footer-right textarea {
 .about-header .navbar a:hover {
     color: #cb720d;
 }
-
-
-
-
 
 .header-text {
     margin-top: 60px;
@@ -1195,3 +1219,5 @@ footer-right textarea {
     opacity: 1;
     transform: translateY(0);
 }
+
+/*  Aldrig varit bra på kommentera kod, men hoppas de är förståeligt */
