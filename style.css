@@ -528,7 +528,6 @@ hr.line1 {
 
 .footer {
     background-color: rgb(13, 24, 28);
-    height: 100vh;
     padding: 40px;
     display: flex;
     justify-content: space-between;
@@ -925,4 +924,256 @@ footer-right textarea {
     color: red;
     margin-bottom: 30px;
     padding: 15px;
+}
+
+/* About/kontakt sida */
+
+.about-header {
+    background-image: url(img/AbstractP.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 400px;
+    padding: 1.3rem 15%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    gap: 1rem;
+}
+
+.header-top {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.about-header .logo {
+    height: 45px;
+}
+
+.about-header .navbar {
+    display: flex;
+    gap: 30px;
+}
+
+.about-header .navbar a {
+    font-size: 1.2rem;
+    color: white;
+    font-family: "Anton", sans-serif;
+    font-weight: 400;
+    transition: color 0.3s ease;
+}
+
+.about-header .navbar a:hover {
+    color: #cb720d;
+}
+
+
+
+
+
+.header-text {
+    margin-top: 60px;
+}
+
+.header-text h4,
+.header-text h2,
+.header-text p {
+    margin: 0;
+}
+
+.header-text h4 {
+    color: #fffefc;
+    margin-bottom: 15px;
+    font-size: 22px;
+}
+
+.header-text h2 {
+    color: #fffefc;
+    margin-bottom: 20px;
+    font-size: 42px;
+}
+
+.header-text p {
+    color: #e1ebec;
+}
+
+.about-div {
+    background-color: #ebecef;
+    padding: 50px 0;
+}
+
+.about-us {
+    background-image: url(img/livingD.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 80%;
+    margin: 0 auto;
+    padding: 100px 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 400px;
+    border-radius: 10px;
+    border: 6px solid white;
+}
+
+.about-us h2 {
+    color: white;
+    font-size: 52px;
+    margin-bottom: 20px;
+}
+
+.about-us p {
+    color: #f9fffd;
+    font-size: 18px;
+    width: 65%;
+    line-height: 1.4;
+}
+
+.work-people {
+    background-color: #0e1116;
+    display: flex;
+    flex-direction: column;
+    padding: 40px 20px;
+    box-sizing: border-box;
+}
+
+.work-people .image-box {
+    width: 70%;
+    margin: 0 auto 60px auto;
+    margin-bottom: 60px;
+}
+
+.work-people .image-box img {
+    width: 100%;
+    height: auto;
+    display: block;
+    border-radius: 10px;
+}
+
+.work-people h2 {
+    color: white;
+    text-align: left;
+    margin: 10px 0 10px 0;
+    font-size: 36px;
+}
+
+.work-people p {
+    color: lightgrey;
+    font-size: 18px;
+    width: 70%;
+    font-style: oblique;
+    text-align: left;
+}
+
+.office-box {
+    background-color: #0e1116;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 20px;
+    padding: 30px 20px;
+    margin: 0 auto;
+    flex-wrap: wrap;
+    box-sizing: border-box;
+}
+
+.office-box>div {
+    flex: 0 0 35%;
+    padding: 20px;
+    text-align: center;
+}
+
+.office-box>div i {
+    color: red;
+    font-size: 34px;
+    margin-bottom: 10px;
+}
+
+.office-box>div h5 {
+    color: white;
+    font-size: 22px;
+    margin-bottom: 10px;
+}
+
+.office-box>div p {
+    color: #b0c4c6;
+    font-size: 18px;
+    line-height: 1.4;
+}
+
+.footer-about {
+    background-color: #0e1116;
+    padding: 40px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.footer-about h4 {
+    color: lightgrey;
+}
+
+.footer-about i {
+    margin-bottom: 20px;
+}
+
+.work-with {
+    background-color: #0e1116;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 40px;
+    padding: 40px;
+    padding-bottom: 150px;
+}
+
+.work-with1 {
+    flex: 1;
+}
+
+.work-with2 {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+}
+
+.work-with2 img {
+    width: 70%;
+    height: 350px;
+    border-radius: 10px;
+}
+
+.work-with h4 {
+    font-size: 28px;
+    color: white;
+    margin-bottom: 10px;
+}
+
+.work-with p {
+    font-size: 22px;
+    color: #d2d5da;
+    width: 75%;
+}
+
+.work-with button {
+    background-color: #052162;
+    color: white;
+    padding: 12px 24px;
+    border: none;
+    font-size: 16px;
+    font-weight: 500;
+    border-radius: 12px;
+    transition: 0.2s ease-in-out;
+    margin-bottom: 15px;
+}
+
+.work-with button:hover {
+    background-color: #0e3693;
+    transform: translateY(-2px);
 }
