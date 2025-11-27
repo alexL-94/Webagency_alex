@@ -84,70 +84,71 @@ hr.line1 {
     font-family: 'Roboto';
     position: relative;
     width: 100%;
-    bottom: 45%;
-    display: block;
 }
 
 #flip {
     height: 50px;
     overflow: hidden;
-}
-
-#flip>div>div {
-    color: #fff;
-    padding: 6px 12px;
-    height: 50px;
-    margin-bottom: 50px;
     display: inline-block;
 }
 
-#flip div:first-child {
-    animation: show 5s linear infinite;
+.ani-row {
+    display: block;
 }
 
-#flip div div {
-    background: #42c58a;
+#flip-inner {
+    display: flex;
+    flex-direction: column;
+    transform: translateY(0);
+    animation: FlipAnim 5s ease-in-out infinite;
 }
 
-#flip div:first-child div {
+#flip-inner>div {
+    height: 50px;
+    line-height: 50px;
+    padding: 0 12px;
+    color: #fff;
+}
+
+#flip-inner>div:nth-child(1) {
     background: #ef860d;
 }
 
-#flip div:last-child div {
-    background: #DC143c
+#flip-inner>div:nth-child(2) {
+    background: #42c58a;
 }
 
-@keyframes show {
+#flip-inner>div:nth-child(3) {
+    background: #DC143C;
+}
+
+@keyframes FlipAnim {
     0% {
-        margin-top: -270px;
+        transform: translateY(0);
     }
 
-    5% {
-        margin-top: -180px;
+    20% {
+        transform: translateY(0);
     }
 
     33% {
-        margin-top: -180px;
+        transform: translateY(-50px);
     }
 
-    38% {
-        margin-top: -90px;
+    53% {
+        transform: translateY(-50px);
     }
 
-    65% {
-        margin-top: -90px;
+    66% {
+        transform: translateY(-100px);
     }
 
-    72% {
-        margin-top: 0px;
-    }
-
-    99.99% {
-        margin-top: 0px;
+    86% {
+        transform: translateY(-100px);
     }
 
     100% {
-        margin-top: -270px;
+        transform: translateY(0);
     }
 }
 
@@ -1176,4 +1177,21 @@ footer-right textarea {
 .work-with button:hover {
     background-color: #0e3693;
     transform: translateY(-2px);
+}
+
+.office1,
+.office2,
+.work-with1,
+.work-with2 {
+    opacity: 0;
+    transform: translateY(50px);
+    transition: all 0.6s ease-out;
+}
+
+.office1.visible,
+.office2.visible,
+.work-with1.visible,
+.work-with2.visible {
+    opacity: 1;
+    transform: translateY(0);
 }
