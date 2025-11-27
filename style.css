@@ -1127,3 +1127,58 @@ footer-right textarea {
 .footer-about i {
     margin-bottom: 20px;
 }
+
+.work-with {
+    background-color: #0e1116;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 40px;
+    padding: 40px;
+    padding-bottom: 150px;
+}
+
+.work-with1 {
+    flex: 1;
+}
+
+.work-with2 {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+}
+
+.work-with2 img {
+    width: 70%;
+    height: 350px;
+    border-radius: 10px;
+}
+
+.work-with h4 {
+    font-size: 28px;
+    color: white;
+    margin-bottom: 10px;
+}
+
+.work-with p {
+    font-size: 22px;
+    color: #d2d5da;
+    width: 75%;
+}
+
+.work-with button {
+    background-color: #052162;
+    color: white;
+    padding: 12px 24px;
+    border: none;
+    font-size: 16px;
+    font-weight: 500;
+    border-radius: 12px;
+    transition: 0.2s ease-in-out;
+    margin-bottom: 15px;
+}
+
+.work-with button:hover {
+    background-color: #0e3693;
+    transform: translateY(-2px);
+}
